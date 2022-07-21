@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100vw;
+    height: 80vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    font-family: 'Nuosu SIL', serif;
+}
+
+.container {
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-div {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 70%;
+}
+
+.img-10x {
+    width: 100%;
+    height: 100%;
+}
+
+.description-div {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #00732c;
+}
+
+
+.enter-btn {
+   width: 15%;
+   height: 5%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 3vh;
+   background-color: white;
+   color: #00732c;
+   border-color: #00732c;
+   border-radius: 8px;
+   border: 2px solid #00732c;
+   text-decoration: none;
+}
